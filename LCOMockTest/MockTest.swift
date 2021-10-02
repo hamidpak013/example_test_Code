@@ -36,7 +36,7 @@ struct MockTestList {
     MockTest(
         imageName: "mt-2", title: "Pro InterView Prepration Edition 2", descripiton: "A long description will go here", sellPrice: "199", origionalPrice: "2999", Url: URL(string: "https://courses.learncodeonline.in/learn")!),
     
-    MockTest(imageName: "mt-3", title: "Pro InterView Prepration Edition 3", descripiton: "A long description will go here", sellPrice: "199", origionalPrice: "2999", Url: URL(string: "https://courses.learncodeonline.in/learn")!),
+    MockTest(imageName: "mt-3", title: "Pro InterView Prepration Edition 3", descripiton: "A very simple application to developer the my understanding to swiftui", sellPrice: "199", origionalPrice: "2999", Url: URL(string: "https://courses.learncodeonline.in/learn")!),
     
     MockTest(imageName: "mt-4", title: "Pro InterView Prepration Edition 4", descripiton: "A long description will go here", sellPrice: "199", origionalPrice: "2999", Url: URL(string: "https://courses.learncodeonline.in/learn")!),
     

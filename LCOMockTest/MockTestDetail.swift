@@ -20,6 +20,8 @@ struct MockTestDetail: View {
                 .aspectRatio(contentMode: .fit)
                 .edgesIgnoringSafeArea(.leading)
                 .cornerRadius(20)
+//                .padding(.top, 0)
+                
             
             Text(mockTest.title)
                 .font(.title2)
@@ -45,7 +47,7 @@ struct MockTestDetail: View {
             }
             
             
-            HStack(spacing: 30) {
+            HStack(spacing: 60) {
                 
                 VStack {
                     Text("360")
@@ -70,7 +72,21 @@ struct MockTestDetail: View {
                     Text("Marks")
                 }
                 
-            }
+            }.padding(.top, 10)
+            
+            Text(mockTest.descripiton)
+                .padding(5)
+            
+            Spacer()
+                
+            Link(destination: mockTest.Url) {
+                Text("Enroll Now")
+                    .bold()
+                    .frame(width: 220, height: 50, alignment: .center)
+                    .background(Color(.systemGreen))
+                    .foregroundColor(.white)
+                    .cornerRadius(10)
+            }.padding(10)
                 
         }
     }
