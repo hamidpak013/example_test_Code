@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8D532C5627082AA100A99D99 /* MockTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D532C5527082AA100A99D99 /* MockTest.swift */; };
+		8D532C7827084EB900A99D99 /* MockTestDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D532C7727084EB900A99D99 /* MockTestDetail.swift */; };
 		8DAED74D27079079007E2082 /* LCOMockTestApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DAED74C27079079007E2082 /* LCOMockTestApp.swift */; };
 		8DAED74F27079079007E2082 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DAED74E27079079007E2082 /* ContentView.swift */; };
 		8DAED7512707907E007E2082 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8DAED7502707907E007E2082 /* Assets.xcassets */; };
@@ -14,6 +16,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8D532C5527082AA100A99D99 /* MockTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockTest.swift; sourceTree = "<group>"; };
+		8D532C7727084EB900A99D99 /* MockTestDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockTestDetail.swift; sourceTree = "<group>"; };
 		8DAED74927079079007E2082 /* LCOMockTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LCOMockTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8DAED74C27079079007E2082 /* LCOMockTestApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LCOMockTestApp.swift; sourceTree = "<group>"; };
 		8DAED74E27079079007E2082 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -55,6 +59,8 @@
 				8DAED74E27079079007E2082 /* ContentView.swift */,
 				8DAED7502707907E007E2082 /* Assets.xcassets */,
 				8DAED7522707907E007E2082 /* Preview Content */,
+				8D532C5527082AA100A99D99 /* MockTest.swift */,
+				8D532C7727084EB900A99D99 /* MockTestDetail.swift */,
 			);
 			path = LCOMockTest;
 			sourceTree = "<group>";
@@ -137,8 +143,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8D532C7827084EB900A99D99 /* MockTestDetail.swift in Sources */,
 				8DAED74F27079079007E2082 /* ContentView.swift in Sources */,
 				8DAED74D27079079007E2082 /* LCOMockTestApp.swift in Sources */,
+				8D532C5627082AA100A99D99 /* MockTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
